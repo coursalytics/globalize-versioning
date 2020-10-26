@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
 gemspec
-gem 'globalize', '~> 5.1'
-gem 'paper_trail', '~> 10.0.1'
+gem 'globalize', '5.3.0'
+gem 'paper_trail',
+  git: 'https://github.com/coursalytics/paper_trail',
+  branch: '5-stable'
